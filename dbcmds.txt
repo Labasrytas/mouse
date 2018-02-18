@@ -1,0 +1,5 @@
+
+CREATE USER 'verslas'@'localhost' IDENTIFIED BY 'XXXXXXXXX';
+GRANT ALL PRIVILEGES ON * . * TO 'verslas'@'localhost';
+create table orders (id integer auto_increment primary key, name text, address text, quantity integer);
+
